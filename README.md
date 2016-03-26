@@ -1,7 +1,7 @@
 # Docker containers for sitools
 docker container for sitools portal and postgres database
 
-Aim of this project is to provide an docker example of [sitools](https://github.com/SITools2/SITools2-core) architecture. 
+Aim of this project is to provide a docker example of [sitools](https://github.com/SITools2/SITools2-core) architecture. 
 
 !!! Warning !!! A fixed and archived version of sitools is embedded in this architecture. It's up to you tu update sitools binaries version.
 
