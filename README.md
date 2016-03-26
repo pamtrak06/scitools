@@ -1,2 +1,2 @@
-# scitools
-docker container for scitools portal and postres database
+# sitools
+docker container for sitools portal and postres database
