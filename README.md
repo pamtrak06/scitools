@@ -8,10 +8,10 @@ Warning a fixed and archived version of sitools is embedded in this architecture
 This docker architecture is build and mounted with help of [edocker tool](https://github.com/pamtrak06/edocker).
 
 First, download source 
-’’’bash
+'''bash
 git clone https://github.com/pamtrak06/sitools.git
 cd sitools
-’’’
+'''
 
 Configure web sitools host for mac or windows
 ’’’bash
