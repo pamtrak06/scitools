@@ -16,12 +16,12 @@ cd sitools
 Configure web sitools host for mac or windows
 ```bash
 DOCKER_HOST_IP=$(docker-machine ip)
-sed -i "s|SITOOLS_HOST=192.168.99.100|SITOOLS_HOST=${DOCKER_HOST_IP}|g" web_sitool/edcoker.cfg
+sed -i "s|SITOOLS_HOST=192.168.99.100|SITOOLS_HOST=${DOCKER_HOST_IP}|g" web_sitools/edcoker.cfg
 ```
 
 Configure web sitools host for linux
 ```bash
-sed -i "s|SITOOLS_HOST=192.168.99.100|SITOOLS_HOST=${HOSTNAME}|g" web_sitool/edcoker.cfg
+sed -i "s|SITOOLS_HOST=192.168.99.100|SITOOLS_HOST=${HOSTNAME}|g" web_sitools/edcoker.cfg
 ```
 
 Run containers
